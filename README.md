@@ -41,10 +41,11 @@ sudo npm i -g nodemon typescript ts-node
 
 ## 🚀 Para você rodar o projeto
 ```
-git clone https://github.com/TayseRosa/dev-pet.git
+Digite no prompt de comando: git clone https://github.com/TayseRosa/dev-pet.git
 cd <nome da pasta do projeto>
 npm install
 npm run start-dev
+No seu navegador: http://localhost:3000
 ```
 
 
