@@ -14,7 +14,9 @@ Tayse Rosa
 🟡 Status do projeto: Em andamento
 
 ---
-
+<p align="center">
+  <img src="readme_image.png" width="160">
+</p>
 
 ## 🛠️ Funcionalidades
 <ul>
