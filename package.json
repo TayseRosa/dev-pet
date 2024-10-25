@@ -4,7 +4,8 @@
   "description": "<p align=\"center\">   <img src=\"https://brandslogos.com/wp-content/uploads/images/large/nodejs-logo.png\" width=\"160\"> </p> <h1 align=\"center\"> Projeto Dev Pet </h1>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon -e ts, json, mustache, src/server.ts"
   },
   "repository": {
     "type": "git",
