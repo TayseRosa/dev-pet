@@ -3,7 +3,7 @@
 </p>
 <h1 align="center"> Projeto Dev Pet </h1>
 
-<p align="center">Este projeto foi desenvolvido para praticar e consolidar os conhecimentos em Node.js, criando um site simples de Petshop, utilizando o NodeJS, com mustache e outras tecnologias.</p>
+<p align="center">Este projeto foi desenvolvido para praticar e consolidar os conhecimentos em Node.js, criando um site simples de Petshop, utilizando o NodeJS, com mustache e outras tecnologias  .</p>
 
 <br>
 🚀 Desenvolvedora:
