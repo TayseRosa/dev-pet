@@ -1,21 +1,19 @@
 import { Request, Response } from "express";
 
-export const search = (req: Request, res:Response) => {
-    //res.render('pages/search')
-}
-
 export const home = (req: Request, res:Response) => {
-    //res.render('pages/home')
+    //res.send('Home no controller')
+    res.render('pages/page')
+
 }
 
 export const dogs = (req: Request, res:Response) => {
-    //res.render('pages/dogs')
+    res.render('dogs')
 }
 
 export const cats = (req: Request, res:Response) => {
-    //res.render('pages/cats')
+    res.render('cats')
 }
 
 export const fishes = (req: Request, res:Response) => {
-    //res.render('pages/fishes')
+    res.render('fishes')
 }
