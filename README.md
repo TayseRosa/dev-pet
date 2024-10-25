@@ -15,7 +15,7 @@ Tayse Rosa
 
 ---
 <p align="center">
-  <img src="readme_image.png" width="160">
+  <img src="readme_image.png" width="500">
 </p>
 
 ## 🛠️ Funcionalidades
