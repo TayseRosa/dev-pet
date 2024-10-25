@@ -40,7 +40,11 @@ sudo npm i -g nodemon typescript ts-node
 ```
 
 ## 🚀 Para você rodar o projeto
-```npm run start-dev```
+```
+git clone https://github.com/TayseRosa/dev-pet.git
+npm install
+npm run start-dev
+```
 
 
 ## Licença
