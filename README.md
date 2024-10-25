@@ -1,9 +1,9 @@
 <p align="center">
   <img src="https://brandslogos.com/wp-content/uploads/images/large/nodejs-logo.png" width="160">
 </p>
-<h1 align="center"> Projeto NodeJS - Zod </h1>
+<h1 align="center"> Projeto Dev Pet </h1>
 
-<p align="center">Este projeto foi desenvolvido para praticar e consolidar os conhecimentos em Node.js, utilizando o zod.</p>
+<p align="center">Este projeto foi desenvolvido para praticar e consolidar os conhecimentos em Node.js, criando um site utilizando o NodeJS.</p>
 
 <br>
 🚀 Desenvolvedora:
@@ -20,14 +20,15 @@ Tayse Rosa
 <ul>
     <li>Configuração do servidor do zero com Node.js</li>
     <li>Criação de rotas no express para atender diferentes endpoints</li>
-    <li>Implementação de middlewares para tratamento de erros e validação</li>
-    <li>Salvar os dados em arquivos txt</li>    
+    <li>Implementação de middlewares para tratamento de erros e validação</li>  
 </ul>
 
 ## 🚀 Tecnologias Utilizadas
 <ul>
     <li>Node.js para a criação do servidor</li>
-    <li>Zod</li>
+    <li>Nodemoon</li>
+    <li>Typescript</li>
+    <li>Mustache</li>
 </ul>
 
 ## 🚀 Configuração inicial do projeto
@@ -35,36 +36,21 @@ Tayse Rosa
 
 ```
 npm init
-npm i express helmet
-npm i -D @types/node tsx typescript
-npm i zod
-npm run zod
-```
-Testes de zod:
-No arquivo zod.ts:
-```
-import z from 'zod'
-
-const schema = z.object({
-    name:z.string().min(2),
-    email:z.string().email(),
-    age: z.number().min(18).max(120),
-    staus:z.boolean(),
-})
-
-//Cria um type.
-type User = z.infer<typeof schema>
-
-let data = {
-    name:'Tayse Rosa',
-    email:'tayse@email.com',
-    age:10
-}
-
-const result = schema.safeParse(data)
-console.log(result)
+tsc --init
+npm i express mustache-express dotenv
+npm i -D @types/express @types/mustache-express @types/node 
+sudo npm i -g nodemon typescript ts-node
 
 ```
+
+
+
+
+
+
+
+
+
 
 ## Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
