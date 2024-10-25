@@ -11,19 +11,13 @@
 Tayse Rosa
 </a>
 <br>
-🟡 Status do projeto: Em andamento
+🟢 Status do projeto: Concluído
 
 ---
 <p align="center">
   <img src="readme_image.png" width="500">
 </p>
 
-## 🛠️ Funcionalidades
-<ul>
-    <li>Configuração do servidor do zero com Node.js</li>
-    <li>Criação de rotas no express para atender diferentes endpoints</li>
-    <li>Implementação de middlewares para tratamento de erros e validação</li>  
-</ul>
 
 ## 🚀 Tecnologias Utilizadas
 <ul>
@@ -33,8 +27,8 @@ Tayse Rosa
     <li>Mustache</li>
 </ul>
 
-## 🚀 Configuração inicial do projeto
-<p>Para configurar o projeto, basta seguir o passo abaixo:</p>
+## 🚀 Minhas anotações: Configuração inicial do projeto
+<p>Para iniciar a configuração do projeto, fiz o seguinte passo abaixo:</p>
 
 ```
 npm init
@@ -45,7 +39,7 @@ sudo npm i -g nodemon typescript ts-node
 
 ```
 
-## 🚀 Para rodar o projeto
+## 🚀 Para você rodar o projeto
 ```npm run start-dev```
 
 
